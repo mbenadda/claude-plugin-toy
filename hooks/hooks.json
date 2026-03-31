@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "mkdir -p ${CLAUDE_PLUGIN_DATA}/bin && cd ${CLAUDE_PLUGIN_ROOT}/src && go build -o ${CLAUDE_PLUGIN_DATA}/bin/greeter . 2>&1"
+          }
+        ]
+      }
+    ]
+  }
+}

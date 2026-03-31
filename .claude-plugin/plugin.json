@@ -1,0 +1,6 @@
+{
+  "name": "binary-toy",
+  "description": "Proof-of-concept: a Claude plugin that compiles and runs a Go binary",
+  "version": "0.1.0",
+  "author": { "name": "Mehdi Benadda" }
+}
